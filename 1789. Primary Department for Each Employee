@@ -1,0 +1,2 @@
+Write a solution to report all the employees with their primary department. For employees who belong to one department, report their only department.
+Return the result table in any order.
