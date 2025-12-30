@@ -2,3 +2,10 @@ Write a solution to find the patient_id, patient_name, and conditions of the pat
 Return the result table in any order.
 
 
+SELECT 
+    patient_id,
+    patient_name,
+    conditions
+FROM Patients
+WHERE conditions REGEXP '(^| )DIAB1';//REGEXP '(^| )PREFIX'
+
